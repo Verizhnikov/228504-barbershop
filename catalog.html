@@ -24,7 +24,7 @@
 						<a href="#">Прайс-лист</a>
 					</li>
 					<li>
-						Магазин
+						<a href="#">Магазин</a>
 					</li>
 					<li>
 						<a href="#">Контакты</a>
@@ -38,7 +38,7 @@
 	</header>
 
 	<main class="container">
-		<div class="header">
+		<header class="content-header">
 			<h1>Средства для ухода</h1>
 			<div class="breadcrumbs">
 				<ul>
@@ -53,43 +53,52 @@
 					</li>
 				</ul>
 			</div>
-		</div>
+		</header>
 		<section class="sidebar">
 			<form class="form" action="https://echo.htmlacademy.ru" method="post">
 				<div class="companys">
 					<h2>Производители:</h2>
-					<input type="checkbox" name="Baxter" id="Baxter">
-					<label for="Baxter">Baxter of california</label>
-
-					<input type="checkbox" name="natty" id="natty">
-					<label for="natty">Mr natty</label>
-
-					<input type="checkbox" name="Suavecito" id="Suavecito">
-					<label for="Suavecito">Suavecito</label>
-
-					<input type="checkbox" name="Malin" id="Malin">
-					<label for="Malin">Malin+Goetz</label>
-
-					<input type="checkbox" name="Murray" id="Murray">
-					<label for="Murray">Murray's</label>
-
-					<input type="checkbox" name="American" id="American">
-					<label for="American">American Crew</label>
+					<div class="company-item">
+						<input type="checkbox" name="Baxter" id="Baxter">
+						<label for="Baxter">Baxter of california</label>
+					</div>
+					<div class="company-item">
+						<input type="checkbox" name="natty" id="natty">
+						<label for="natty">Mr natty</label>
+					</div>
+					<div class="company-item">
+						<input type="checkbox" name="Suavecito" id="Suavecito">
+						<label for="Suavecito">Suavecito</label>
+					</div>
+					<div class="company-item">
+						<input type="checkbox" name="Malin" id="Malin">
+						<label for="Malin">Malin+Goetz</label>
+					</div>
+					<div class="company-item">
+						<input type="checkbox" name="Murray" id="Murray">
+						<label for="Murray">Murray's</label>
+					</div>
+					<div class="company-item">
+						<input type="checkbox" name="American" id="American">
+						<label for="American">American Crew</label>
+					</div>
 				</div>
 				<div class="group">
 					<h2>Группы товаров:</h2>
-					<input type="radio" name="group" value="razor" id="razor">
-					<label for="razor">Бритвенные принадлежности</label>
-
-					<input type="radio" name="group" value="tools" id="tools">
-					<label for="tools">Средства для ухода</label>
-
-					<input type="radio" name="group" value="accessories" id="accessories">
-					<label for="accessories">Аксессуары</label>
+						<div class="group-item">
+							<input type="radio" name="group" value="razor" id="razor">
+							<label for="razor">Бритвенные принадлежности</label>
+						</div>
+						<div class="group-item">
+							<input type="radio" name="group" value="tools" id="tools">
+							<label for="tools">Средства для ухода</label>
+						</div>
+						<div class="group-item">
+							<input type="radio" name="group" value="accessories" id="accessories">
+							<label for="accessories">Аксессуары</label>
+						</div>
 				</div>
-				<div class="btn">
-					<a href="#">Показать</a>
-				</div>
+				<button class="btn" type="submit">Показать</button>
 			</form>
 		</section>
 		<div class="products-list">
