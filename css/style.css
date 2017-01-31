@@ -1,3 +1,13 @@
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
 body,
 h1,
 h2 {
@@ -9,6 +19,7 @@ h2 {
 body {
 	font-size: 14px;
 	line-height: 24px;
+	min-width: 1122px;
 }
 
 h1 {
@@ -19,4 +30,78 @@ h1 {
 h2 {
 	font-size: 24px;
 	line-height: 30px;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.main-navigation {
+	width: 780px;
+}
+
+.user-block {
+	width: 140px;
+}
+
+.content-header {
+	width: 940px;
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+.sidebar {
+	width: 220px;
+}
+
+.products-list {
+	width: 700px;
+
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.card-product {
+	width: 220px;
+	margin-top: 20px;
+}
+
+.pagination {
+	margin-left: 240px;
+	margin-top: 45px;
+	margin-bottom: 50px;
+}
+
+.main-footer {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.contacts {
+	width: 320px;
+	margin-right: 60px;
+}
+
+.social {
+	width: 180px;
+}
+
+.copyright {
+	width: 160px;
+	margin-left: auto;
+}
+
+.gallery {
+	width: 460px;
+}
+
+.right-column {
+	width: 400px;
 }
